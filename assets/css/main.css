@@ -2736,7 +2736,7 @@ table.alt tbody tr td {
   border-bottom-color: #e6e6e6;
 }
 .wrapper.style3 {
-  background-color: #ffa600;
+  background-color: #ffd900;
   color: #444444;
 }
 .wrapper.style3 input[type=submit],
@@ -2847,7 +2847,7 @@ table.alt tbody tr td {
   color: #5e5e5e;
 }
 .wrapper.style3 .image {
-  box-shadow: 0 0 0 4px #ffa600, 0 0 0 5px #d6d6d6;
+  box-shadow: 0 0 0 4px #ffd900, 0 0 0 5px #d6d6d6;
 }
 .wrapper.style3 .image.phone {
   box-shadow: none;
@@ -3309,7 +3309,7 @@ body.is-preload #header .image img {
 
 /* Footer */
 #footer {
-  background-color: #ffa600;
+  background-color: #ffd900;
   color: #444444;
   padding: 4.5em 0 2.5em 0;
   color: #5e5e5e;
