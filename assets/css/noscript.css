@@ -1,3 +1,13 @@
+/* nunito-regular - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/nunito-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Nunito Regular"), local("Nunito-Regular"), url("../webfonts/nunito-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/nunito-v12-latin-regular.woff2") format("woff2"), url("../webfonts/nunito-v12-latin-regular.woff") format("woff"), url("../webfonts/nunito-v12-latin-regular.ttf") format("truetype"), url("../webfonts/nunito-v12-latin-regular.svg#Nunito") format("svg");
+  /* Legacy iOS */
+}
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn

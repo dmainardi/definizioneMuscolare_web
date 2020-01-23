@@ -15,9 +15,25 @@
 		element-margin:		2em
 	);
 
+//Web font.
+/* nunito-regular - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/nunito-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Regular'), local('Nunito-Regular'),
+       url('../webfonts/nunito-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/nunito-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/nunito-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/nunito-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/nunito-v12-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+
+
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family:				('Nunito', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold

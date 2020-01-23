@@ -1,5 +1,15 @@
 @charset "UTF-8";
+/* nunito-regular - latin */
 @import 'fontawesome-all.min.css';
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/nunito-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Nunito Regular"), local("Nunito-Regular"), url("../webfonts/nunito-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/nunito-v12-latin-regular.woff2") format("woff2"), url("../webfonts/nunito-v12-latin-regular.woff") format("woff"), url("../webfonts/nunito-v12-latin-regular.ttf") format("truetype"), url("../webfonts/nunito-v12-latin-regular.svg#Nunito") format("svg");
+  /* Legacy iOS */
+}
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -131,7 +141,7 @@ html, input, select, textarea {
 }
 
 body, input, select, textarea {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito", Helvetica, sans-serif;
   font-weight: normal;
   line-height: 1.5em;
   letter-spacing: -0.015em;
