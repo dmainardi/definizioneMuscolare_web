@@ -44,6 +44,16 @@
 			@include color(accent3);
 		}
 
+		&.style4 {
+			@include color(accent4);
+			@include vendor('background-image', 'linear-gradient(0deg, #b122cb, #3717c7)');
+		}
+
+		&.style5 {
+			@include color(accent5);
+			@include vendor('background-image', 'linear-gradient(0deg, #ff914d, #ffd900)');
+		}
+
 		// Medium.
 			@include breakpoint('<=medium') {
 				@include padding(4em, 4em);
