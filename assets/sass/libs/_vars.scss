@@ -87,13 +87,13 @@
 		),
 
 		accent4: (
-			bg:				#ffd900,
-			fg:				#444444,
-			fg-bold:		#2b2b2b,
-			fg-light:		#5e5e5e,
-			border:			#d6d6d6,
+			bg:				#251086,
+			fg:				mix(#251086, #ffffff, 10%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#251086, #ffffff, 25%),
+			border:			#e6e6e6,
 			border-bg:		rgba(144,144,144,0.075),
-			border2:		#c6c6c6,
+			border2:		#d6d6d6,
 			border2-bg:		rgba(144,144,144,0.15),
 			invert:			false
 		),
