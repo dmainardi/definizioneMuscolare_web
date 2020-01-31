@@ -3098,10 +3098,10 @@ table.alt tbody tr td {
 .wrapper.style5 {
   background-color: #ffd900;
   color: #444444;
-  background-image: -moz-linear-gradient(0deg, #ff914d, #ffd900);
-  background-image: -webkit-linear-gradient(0deg, #ff914d, #ffd900);
-  background-image: -ms-linear-gradient(0deg, #ff914d, #ffd900);
-  background-image: linear-gradient(0deg, #ff914d, #ffd900);
+  background-image: -moz-linear-gradient(0deg, #ffd900, #ff914d);
+  background-image: -webkit-linear-gradient(0deg, #ffd900, #ff914d);
+  background-image: -ms-linear-gradient(0deg, #ffd900, #ff914d);
+  background-image: linear-gradient(0deg, #ffd900, #ff914d);
 }
 .wrapper.style5 input[type=submit],
 .wrapper.style5 input[type=reset],
