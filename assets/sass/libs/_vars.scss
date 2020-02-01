@@ -30,10 +30,26 @@
        url('../webfonts/nunito-v12-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
 }
 
+/* bowlby-one-regular - latin */
+@font-face {
+  font-family: 'Bowlby One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/bowlby-one-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Bowlby One Regular'), local('BowlbyOne-Regular'),
+       url('../webfonts/bowlby-one-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/bowlby-one-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/bowlby-one-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/bowlby-one-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/bowlby-one-v11-latin-regular.svg#BowlbyOne') format('svg'); /* Legacy iOS */
+}
+
+
 
 // Font.
 	$font: (
 		family:				('Nunito', Helvetica, sans-serif),
+		family-header:		('Bowlby One', 'Open Sans', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold

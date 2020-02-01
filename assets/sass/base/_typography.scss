@@ -195,6 +195,25 @@
 		background-color: #ff0046 !important;
 	}
 
+	.strikethrough {
+		position: relative;
+	}
+	.strikethrough:before {
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 40%;
+		right: 0;
+		border-top: 0.2em solid;
+		border-color: #2b2b2b;
+
+		-webkit-transform:rotate(-20deg);
+		-moz-transform:rotate(-20deg);
+		-ms-transform:rotate(-20deg);
+		-o-transform:rotate(-20deg);
+		transform:rotate(-20deg);
+	}
+
 	@mixin color-typography($p: null) {
 		@if $p != null {
 			background-color: _palette($p, bg);

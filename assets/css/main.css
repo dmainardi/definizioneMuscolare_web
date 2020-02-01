@@ -10,6 +10,16 @@
   src: local("Nunito Regular"), local("Nunito-Regular"), url("../webfonts/nunito-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/nunito-v12-latin-regular.woff2") format("woff2"), url("../webfonts/nunito-v12-latin-regular.woff") format("woff"), url("../webfonts/nunito-v12-latin-regular.ttf") format("truetype"), url("../webfonts/nunito-v12-latin-regular.svg#Nunito") format("svg");
   /* Legacy iOS */
 }
+/* bowlby-one-regular - latin */
+@font-face {
+  font-family: "Bowlby One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/bowlby-one-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Bowlby One Regular"), local("BowlbyOne-Regular"), url("../webfonts/bowlby-one-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/bowlby-one-v11-latin-regular.woff2") format("woff2"), url("../webfonts/bowlby-one-v11-latin-regular.woff") format("woff"), url("../webfonts/bowlby-one-v11-latin-regular.ttf") format("truetype"), url("../webfonts/bowlby-one-v11-latin-regular.svg#BowlbyOne") format("svg");
+  /* Legacy iOS */
+}
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -293,6 +303,25 @@ hr.major {
 
 .custom-background-color {
   background-color: #ff0046 !important;
+}
+
+.strikethrough {
+  position: relative;
+}
+
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 40%;
+  right: 0;
+  border-top: 0.2em solid;
+  border-color: #2b2b2b;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
 }
 
 input, select, textarea {
@@ -3479,11 +3508,12 @@ table.alt tbody tr td {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 #header h1 {
+  font-family: "Bowlby One", "Open Sans", sans-serif;
   font-size: 3.25em;
-  font-weight: bold;
   margin-bottom: 0.5em;
 }
 #header p {
+  font-family: "Bowlby One", "Open Sans", sans-serif;
   font-size: 1.5em;
   line-height: 1.35em;
 }
