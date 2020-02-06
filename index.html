@@ -10,23 +10,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/ihavecookiesManager.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- Facebook Pixel Code -->
-			<script>
-				!function(f,b,e,v,n,t,s)
-					{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-					n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-				n.queue=[];t=b.createElement(e);t.async=!0;
-				t.src=v;s=b.getElementsByTagName(e)[0];
-				s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '494953034737917'); 
-			fbq('track', 'PageView');
-			</script>
-			<noscript>
-				<img height="1" width="1" src="https://www.facebook.com/tr?id=494953034737917&ev=PageView&noscript=1"/>
-			</noscript>
-		<!-- End Facebook Pixel Code -->
+	<!-- Facebook Pixel Code -->
+		<noscript>
+			<img height="1" width="1" src="https://www.facebook.com/tr?id=494953034737917&ev=PageView&noscript=1"/>
+		</noscript>
+	<!-- End Facebook Pixel Code -->
 	</head>
 	<body class="is-preload">
 
@@ -170,10 +160,29 @@ Sono convinto dell'efficacia di questo programma perché l'ho ciclizzato con il 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.ihavecookies.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/ihavecookiesManager.js"></script>
+			<!-- Facebook Pixel Code -->
+				<script>
+				if ($.fn.ihavecookies.preference('marketing') === true) {
+			        fb_code();
+			    }
+			    function fb_code() {
+					!function(f,b,e,v,n,t,s)
+						{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+							n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+						if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+						n.queue=[];t=b.createElement(e);t.async=!0;
+						t.src=v;s=b.getElementsByTagName(e)[0];
+						s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+					fbq('init', '494953034737917'); 
+					fbq('track', 'PageView');
+				}
+				</script>
+			<!-- End Facebook Pixel Code -->
 	</body>
 </html>
